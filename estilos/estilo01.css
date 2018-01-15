@@ -1,0 +1,85 @@
+
+body{
+        background-color:darkcyan;
+        font-family: : sans-serif;
+        color: blue;
+        height: 150px;
+        line-height: 35px;
+    }
+
+h1{ 
+    font-family:italic;
+    color: red;    
+    text-align: center;    
+    }
+
+h2{ 
+    font-family:verdana;color: red;    
+    }
+ul{
+    background-color: powderblue;
+    color:black;
+    font-size:large;
+}
+
+.resaltado:hover{
+    text-decoration-line:none;
+    color:red;
+}
+
+.habilidades{
+    height: 150px;
+    line-height: 35px;
+   
+}
+
+.idiomas{
+    height: 160px;
+    line-height: 45px;
+}
+
+/*ul.datos {
+    position: absolute;
+    top: 240px;
+    width: 400px; }
+
+ul.formacion{
+     position: absolute;
+    left: 450px;    
+    width: 400px;
+}
+
+ul.idiomas{
+    position: absolute;
+    left:900px;    
+    width: 400px;
+}*/
+#poli{
+    height: 150px;
+    font-weight: 350px;
+}
+#len{
+    position:absolute;
+    padding-left: 865px;
+    height:150px;
+    
+}
+#imchino{
+    position:absolute;
+    padding-left: 600px;
+    
+}
+#qui{
+    height: 180px;
+    font-weight: 180px;
+}
+#chi{
+    height: 180px;
+    font-weight: 180px;
+}
+/*Pie de pagina */
+# pie{
+    color:red;
+    text-align: center;
+    bottom: 50px;  
+     }
