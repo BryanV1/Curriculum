@@ -1,63 +1,241 @@
 <!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="estilos/estilo01.css" type="text/css">
+<html lang="en">
 <head>
-    <title>Hoja de vida</title>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/estilo03.css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  
 </head>
-    <a name="cabecera"></a>
-<body>
-    
-    <h1>BRYAN VERGARA</h1>
-    
-    <div align="center"><img src="gr%C3%A1ficos/Perfil.jpg" style="align:center;"></div>
-    <hr>
-    
-    <h2>DATOS PERSONALES</h2>
-    <hr>
-    <ul class="datos">        
-        <li>Disponibles en el documento entregado.</li>      
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+ 
+<nav class="navbar navbar-expand-lg bg-secondary navbar-dark fixed-top" id="Nav1">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="collapsibleNavbar">   
+    <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#home">Home</a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#programming">Programming</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#collegeducation">College Education</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#portfolio">Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#footer">Social Networks</a>
+    </li>
     </ul>
-   <!-- <br> <br>  <br> <br>  <br> <br> saltos de linea-->
-    <hr>   
-    <h2 >HABILIDADES</h2>
+</div>
+</nav>
     
-    <hr>
-    <ul class="habilidades">
-        <img  id="len" src="gráficos/lenguajes.png">
-        <li>Programación: C++, Java, Python, HTML, CSS, JavaScript, PHP, SQL Server, MySQL.</li>
+<div class="jumbotron text-center bg-secondary" id="home" >
+<img class="image-fluid" src="images/foto3.png" alt="perfil" width="150" height="150">
+<h1 class="text-uppercase">Bryan Vergara</h1>    
+<h2>Software Developer</h2>
+</div>
+
+<section class="" id="programming">
+    <div class="container">
+        <br>
+        <h2 class="text-center text-uppercase text-secondary">Programming</h2>
+        <br><br>
+        <div class="row align-items-center text-success">         
+            <div class="col-5 text-right">                
+                <h5>NetBeans</h5>
+                <h5>IntelliJ IDEA</h5>
+            </div>            
+            <div class="col-2 text-center">                
+                <img class="rounded-circle overImage" src="images/java.jpg" alt="java" width="100" height="100"><br><br>
+            </div>
+        </div>
         
-        <li>Microsoft Office: Word, Excel, Power Point.</li>
-        <li>Sistemas Operativos: Windows, Linux, Mac OS.</li>
-        <li>Otros: Aplicaciones móviles, Analítica Web, Contabilidad, Administración, Conducción (Licencias de conducir tipo A y C).</li>
-    </ul>
-    
-    <hr>  
-    <h2>FORMACIÓN ACADÉMICA</h2>
-    <hr>
-    <ul class="formacion">
-        <li>Análisis de Sistemas Informáticos: Escuela Politécnica Nacional</li>
-        <img id="poli" src="gráficos/poli.png">
-        <img  src="gráficos/esfot.png">
-        <li>Bachiller Químico - Biólogo: Unidad Educativa Municipal Quitumbe</li>        
-        <img id="qui" src="gráficos/qui.png">
+        <div class="row justify-content-end align-items-center text-primary">
+            <div class="col-2 text-center">                
+                <img class="rounded-circle overImage" src="images/c++.png" alt="c++" width="100" height="100"><br><br>
+            </div>
+            <div class="col-5">                
+                <h5>Dev-C++</h5>
+                <h5>CLion</h5>
+            </div>
+        </div>
         
-    </ul>
-    <!--<br> <br>  <br> <br>  <br> <br> saltos de linea-->
-    <hr>
-      
-    <h2>IDIOMAS</h2>
-    <hr>
-        <ul class="idiomas">
-            <img id="imchino" src="gráficos/cec.png">
-        <li>Inglés (Suficiencia aprobada): Académico I (nivel 8/14) - Centro de Educación Continua</li>
-            <br>
-        <li>Chino: Básico II (nivel 3/7)- Centro de Educación Continua</li>
-        </ul>    
-     <br>   <!--saltos de linea-->
-    <li><a class="resaltado" href=#cabecera>Regresar al inicio</a></li>
-    <br> <!--saltos de linea-->
-    <div id="pie">DERECHOS RESERVADOS - BRYAN VERGARA</div>
+        <div class="row align-items-center text-success">
+            <div class="col-5 text-right">
+                <h5>IDLE</h5>
+                <h5>PyCharm</h5>
+                <h5>Anaconda</h5>
+                <h5>Flask</h5>
+            </div>            
+            <div class="col-2 text-center">                
+                <img class="rounded-circle overImage" src="images/python.jpg" alt="python" width="100" height="100"><br><br>
+            </div>
+        </div>
+        
+        <div class="row justify-content-end align-items-center text-primary">
+            <div class="col-2 text-center">                
+                <img class="rounded-circle overImage" src="images/php.jpg" alt="php" width="100" height="100"><br><br> 
+            </div>
+            <div class="col-5">                
+                <h5>Symfony</h5>
+                
+            </div>
+        </div>
+        
+        <div class="row align-items-center text-success">            
+            <div class="col-5 text-right">                
+                <h5>AngularJS</h5>                
+            </div>            
+            <div class="col-2 text-center">                
+                <img class="rounded-circle overImage" src="images/javascript.png" alt="javascript" width="100" height="100"><br><br>
+            </div>            
+        </div>
+        
+        <div class="row justify-content-end align-items-center text-primary">            
+            <div class="col-2 text-center">                
+                <img class="rounded-circle overImage" src="images/sql.png" alt="sql" width="100" height="100"><br><br>
+            </div>
+            <div class="col-5">                
+                <h5>SQL Server</h5>
+                <h5>MySQL</h5>
+                <h5>PostgreSQL</h5>
+            </div>            
+        </div>
+    </div>
+</section>
+     
+<section class="bg-secondary" id="collegeducation">
+<div class="container">
+    <br><br>
+    <h2 class="text-center text-uppercase">College Education</h2>
+    <br><br>
+    
+    <div class="row justify-content-center">        
+        <div class="col-4  text-center">            
+         <a href="https://www.epn.edu.ec/">
+             <img class="image-fluid" src="images/poli.png" alt="poli" width="100%" height="150">
+        </a>
+        </div>
+        
+        <div class="col-4">
+        <h5>Informatic Systems Analysis</h5>
+        <h5>Sixth Semester</h5>
+        <h5>National Polytechnic School (EPN)</h5>
+            <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width:81%">80.38%</div>
+            </div> 
+        </div> 
+    </div>
+    
+    <br><hr class="bg-primary" width="10%"><br>
+    
+    <div class="row justify-content-center"> 
+        <div class="col-4">
+        <h5>Continuing Education Center</h5>
+        <h5>English: Academic 2 (level 9/14)</h5>           
+            <div class="progress ">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:65%">64.29%</div>
+            </div>
+            <kbd class="bg-success">B1 Certification</kbd>
+            <br><br>
+        <h5>Chinese: Basic II (level 3/7)</h5>
+            <div class="progress ">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:43%">42.86%</div>
+            </div>
+         
+        </div>
+        
+        <div class="col-4 text-center">
+        <a href="https://www.cec-epn.edu.ec/">
+            <img class="image-fluid" src="images/cec.png" alt="cec" width="100%" height="180">
+        </a>
+        </div>   
+        
+    </div>
+    <br><hr class="bg-danger" width="10%"><br><br>
+    
+</div>
+</section>
+   
+<section class="bg-light" id="portfolio">
+<div class="container">
+    <br><br>
+    <h2 class="text-center text-uppercase text-secondary">Portfolio</h2>
+    <br><br>
+
+<div class="row justify-content-center">
+    <div class="col-10">
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="images/mamografia.jpg" alt="mamografia" width="259" height="280">
+    <div class="card-body">
+      <h5 class="card-title">Web Developer</h5>
+      <p class="card-text text-justify">Web development for management of digital mammograms applying computational techniques for hospital entities in Ecuador. Working as research assistant for Dr. María Pérez at Systems Engineering Faculty. </p>
+      <p class="card-text"><small class="text-muted">Escuela Politécnica Nacional</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/teacher.jpg" alt="teacher" width="259" height="280">
+    <div class="card-body">
+      <h5 class="card-title">Teacher</h5>
+      <p class="card-text">I taught several subjects to students of primary and high school at Children International, this is a foundation created in USA that help children of low resources around the world.</p>
+      <p class="card-text"><small class="text-muted">Children International</small></p>
+    </div>
+  </div>
+  </div>
+</div>    
+</div>
+
+</div>
+    <br><br><br><br>
+</section>
+
+<section id="footer">
+
+<div class="jumbotron text-center bg-dark text-light" style="margin-bottom:0">
+  <h4>Find me on</h4><br>
+    <div class="row justify-content-center">
+    <div class="col-6">
+        <span class="fa-stack fa-lg"><a href="https://github.com/BryanV1">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-github fa-stack-1x"></i></a>
+        </span>                
+        <span class="fa-stack fa-lg"><a href="https://stackoverflow.com/users/9959754/bryan-v?tab=profile">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-stack-overflow fa-stack-1x"></i></a>
+        </span>
+        <span class="fa-stack fa-lg"><a href="https://www.facebook.com/profile.php?id=100012538353913">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-facebook fa-stack-1x"></i></a>
+        </span>
+        <span class="fa-stack fa-lg"><a href="#home">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-home fa-stack-1x"></i></a>
+        </span>
+        <br><br>
+        
+        <h4>Powered by</h4>
+        <p>Bootstrap 4</p>
+        <p>Sweat</p>        
+        <i class="fa fa-heart-o w fa-stack-1x text-danger"></i>
+    </div>
+    </div>
+</div>
+</section>
+
+    
+
+
+
 </body>
 </html>
-

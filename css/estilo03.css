@@ -1,0 +1,14 @@
+
+.overImage:hover{
+    opacity: 0.8;
+    border-color: red;
+    cursor: pointer;
+}
+
+.textImage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
